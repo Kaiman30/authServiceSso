@@ -15,7 +15,7 @@ type Storage struct {
 	db *sql.DB
 }
 
-// New creates a new isntance of the SQLite storage.
+// New creates a new instance of the SQLite storage.
 func New(storagePath string) (*Storage, error) {
 	const op = "storage.sqlite.New"
 
